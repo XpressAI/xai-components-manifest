@@ -3,6 +3,7 @@
   "path": "xai_components/xai_modelstash",
   "url": "https://github.com/XpressAI/xai-modelstash",
   "git_ref": "main",
+  "origin": "remote",
   "version": null,
   "description": null,
   "authors": [],

@@ -1,0 +1,24 @@
+{
+  "library_id": "TEMPLATE",
+  "path": "xai_components/xai_template",
+  "url": "https://github.com/XpressAI/xircuits",
+  "git_ref": "master",
+  "origin": "core",
+  "version": "0.1.0",
+  "description": "Xircuits component library template for Xircuits.",
+  "authors": [
+    {
+      "name": "XpressAI",
+      "email": "eduardo@xpress.ai"
+    }
+  ],
+  "license": "Apache-2.0",
+  "readme": "README.md",
+  "repository": "https://github.com/XpressAI/xircuits/tree/master/xai_components/xai_template",
+  "keywords": [
+    "xircuits",
+    "example components"
+  ],
+  "requirements": [],
+  "default_example_path": "HelloTutorial.xircuits"
+}

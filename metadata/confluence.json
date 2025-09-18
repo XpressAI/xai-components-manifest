@@ -3,6 +3,7 @@
   "path": "xai_components/xai_confluence",
   "url": "https://github.com/XpressAI/xai-confluence",
   "git_ref": "main",
+  "origin": "remote",
   "version": "0.1.0",
   "description": "Component library for confluence",
   "authors": [

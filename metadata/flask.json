@@ -3,6 +3,7 @@
   "path": "xai_components/xai_flask",
   "url": "https://github.com/XpressAI/xai-flask",
   "git_ref": "main",
+  "origin": "remote",
   "version": "0.5.0",
   "description": "A Xircuits component library for Flask!",
   "authors": [

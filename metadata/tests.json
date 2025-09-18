@@ -3,6 +3,7 @@
   "path": "xai_components/xai_tests",
   "url": "https://github.com/XpressAI/xai-tests",
   "git_ref": "main",
+  "origin": "remote",
   "version": "0.1.0",
   "description": "A Xircuits component library for testing Xircuits things",
   "authors": [

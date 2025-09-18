@@ -3,6 +3,7 @@
   "path": "xai_components/xai_discord",
   "url": "https://github.com/XpressAI/xai-discord",
   "git_ref": "main",
+  "origin": "remote",
   "version": "0.1.0",
   "description": "A Xircuits component library for discord!",
   "authors": [
@@ -12,7 +13,7 @@
     }
   ],
   "license": "Apache-2.0",
-  "readme": "readme.md",
+  "readme": "README.md",
   "repository": "https://github.com/XpressAI/xai-discord",
   "keywords": [
     "xircuits",
@@ -20,7 +21,7 @@
     "Bot"
   ],
   "requirements": [
-    "discord-py==2.4.0",
+    "discord.py==2.4.0",
     "aiohttp==3.10.10"
   ],
   "default_example_path": "examples/DiscordBotBranchExample.xircuits"

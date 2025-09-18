@@ -3,6 +3,7 @@
   "path": "xai_components/xai_anthropic",
   "url": "https://github.com/XpressAI/xai-anthropic",
   "git_ref": "main",
+  "origin": "remote",
   "version": "0.1.0",
   "description": "A Xircuits component library for Anthropic's API!",
   "authors": [

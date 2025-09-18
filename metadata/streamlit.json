@@ -3,6 +3,7 @@
   "path": "xai_components/xai_streamlit",
   "url": "https://github.com/XpressAI/xai-streamlit",
   "git_ref": "main",
+  "origin": "remote",
   "version": "0.1.0",
   "description": "A Xircuits component library for streamlit!",
   "authors": [
@@ -13,7 +14,7 @@
   ],
   "license": "Apache-2.0",
   "readme": "README.md",
-  "repository": "https://github.com/XpressAI/xai-mqtt",
+  "repository": "https://github.com/XpressAI/xai-streamlit",
   "keywords": [
     "xircuits",
     "streamlit",

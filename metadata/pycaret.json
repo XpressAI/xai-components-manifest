@@ -3,8 +3,9 @@
   "path": "xai_components/xai_pycaret",
   "url": "https://github.com/XpressAI/xai-pycaret",
   "git_ref": "main",
+  "origin": "remote",
   "version": "0.1.0",
-  "description": "Xircuits component library for PyTorch.",
+  "description": "Xircuits component library for PyCaret.",
   "authors": [
     {
       "name": "XpressAI",
@@ -16,7 +17,7 @@
   "repository": "https://github.com/XpressAI/xai-pycaret",
   "keywords": [
     "xircuits",
-    "pytorch",
+    "pycaret",
     "data preprocessing",
     "classification"
   ],

@@ -3,6 +3,7 @@
   "path": "xai_components/xai_converse",
   "url": "https://github.com/XpressAI/xai-converse",
   "git_ref": "main",
+  "origin": "remote",
   "version": "0.3.0",
   "description": "Xircuits component library for creating an agent accessible with the OpenAI API.",
   "authors": [

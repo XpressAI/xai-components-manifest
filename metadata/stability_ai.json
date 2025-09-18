@@ -3,6 +3,7 @@
   "path": "xai_components/xai_stability_ai",
   "url": "https://github.com/XpressAI/xai-stability-ai",
   "git_ref": "main",
+  "origin": "remote",
   "version": "0.1.0",
   "description": "A component library for interacting with the Stability AI platform.",
   "authors": [

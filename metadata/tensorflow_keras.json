@@ -3,6 +3,7 @@
   "path": "xai_components/xai_tensorflow_keras",
   "url": "https://github.com/XpressAI/xai-tensorflow-keras",
   "git_ref": "main",
+  "origin": "remote",
   "version": "0.1.0",
   "description": "Xircuits component library for Tensorflow Keras.",
   "authors": [
@@ -13,7 +14,7 @@
   ],
   "license": "Apache-2.0",
   "readme": "README.md",
-  "repository": "https://github.com/XpressAI/xai-pytorch",
+  "repository": "https://github.com/XpressAI/xai-tensorflow-keras",
   "keywords": [
     "xircuits",
     "tensorflow",

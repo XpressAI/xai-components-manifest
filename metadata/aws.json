@@ -3,6 +3,7 @@
   "path": "xai_components/xai_aws",
   "url": "https://github.com/XpressAI/xai-aws",
   "git_ref": "main",
+  "origin": "remote",
   "version": "0.1.0",
   "description": "AWS Components for Xircuits",
   "authors": [
@@ -13,7 +14,7 @@
   ],
   "license": "Apache-2.0",
   "readme": "README.md",
-  "repository": "git@github.com:XpressAI/xai-aws.git",
+  "repository": "https://github.com/XpressAI/xai-aws",
   "keywords": [
     "xircuits",
     "aws",

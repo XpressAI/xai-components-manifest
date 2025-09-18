@@ -3,6 +3,7 @@
   "path": "xai_components/xai_telegram",
   "url": "https://github.com/XpressAI/xai-telegram",
   "git_ref": "main",
+  "origin": "remote",
   "version": "0.1.0",
   "description": "Xircuits Component Library to interface with Telegram",
   "authors": [

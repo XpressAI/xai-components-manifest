@@ -3,6 +3,7 @@
   "path": "xai_components/xai_actors",
   "url": "https://github.com/XpressAI/xai-actors",
   "git_ref": "main",
+  "origin": "remote",
   "version": "0.1.0",
   "description": "A Xircuits component library that wraps Thespian, the framework of an Actor model for use by applications implementing Actors.",
   "authors": [
@@ -12,7 +13,7 @@
     }
   ],
   "license": "Apache-2.0",
-  "readme": "readme.md",
+  "readme": "README.md",
   "repository": "https://github.com/XpressAI/xai-actors",
   "keywords": [
     "xircuits",

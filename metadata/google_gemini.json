@@ -3,6 +3,7 @@
   "path": "xai_components/xai_google_gemini",
   "url": "https://github.com/XpressAI/xai-google-gemini",
   "git_ref": "main",
+  "origin": "remote",
   "version": "0.5.0",
   "description": "A Xircuits component library for Google's Gemini API.",
   "authors": [

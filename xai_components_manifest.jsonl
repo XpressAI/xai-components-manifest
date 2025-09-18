@@ -1,40 +1,44 @@
-{"path": "xai_components/xai_pycaret", "url": "https://github.com/XpressAI/xai-pycaret", "library_id": "PYCARET", "git_ref": "main"}
-{"path": "xai_components/xai_modelstash", "url": "https://github.com/XpressAI/xai-modelstash", "library_id": "MODELSTASH", "git_ref": "main"}
-{"path": "xai_components/xai_streamlit", "url": "https://github.com/XpressAI/xai-streamlit", "library_id": "STREAMLIT", "git_ref": "main"}
-{"path": "xai_components/xai_rabbitmq", "url": "https://github.com/XpressAI/xai-rabbitmq", "library_id": "RABBITMQ", "git_ref": "main"}
-{"path": "xai_components/xai_mqtt", "url": "https://github.com/XpressAI/xai-mqtt", "library_id": "MQTT", "git_ref": "main"}
-{"path": "xai_components/xai_vecto", "url": "https://github.com/XpressAI/xai-vecto", "library_id": "VECTO", "git_ref": "main"}
-{"path": "xai_components/xai_openai", "url": "https://github.com/XpressAI/xai-openai", "library_id": "OPENAI", "git_ref": "main"}
-{"path": "xai_components/xai_gpt_agent_toolkit", "url": "https://github.com/XpressAI/xai-gpt-agent-toolkit", "library_id": "GPT_AGENT_TOOLKIT", "git_ref": "main"}
-{"path": "xai_components/xai_slack", "url": "https://github.com/XpressAI/xai-slack", "library_id": "SLACK", "git_ref": "main"}
-{"path": "xai_components/xai_discord", "url": "https://github.com/XpressAI/xai-discord", "library_id": "DISCORD", "git_ref": "main"}
-{"path": "xai_components/xai_tests", "url": "https://github.com/XpressAI/xai-tests", "library_id": "TESTS", "git_ref": "main"}
-{"path": "xai_components/xai_anthropic", "url": "https://github.com/XpressAI/xai-anthropic", "library_id": "ANTHROPIC", "git_ref": "main"}
-{"path": "xai_components/xai_hfagent", "url": "https://github.com/XpressAI/xai-hfagent", "library_id": "HFAGENT", "git_ref": "main"}
-{"path": "xai_components/xai_flask", "url": "https://github.com/XpressAI/xai-flask", "library_id": "FLASK", "git_ref": "main"}
-{"path": "xai_components/xai_actors", "url": "https://github.com/XpressAI/xai-actors", "library_id": "ACTORS", "git_ref": "main"}
-{"path": "xai_components/xai_sqlite", "url": "https://github.com/XpressAI/xai-sqlite", "library_id": "SQLITE", "git_ref": "main"}
-{"path": "xai_components/xai_gdrive", "url": "https://github.com/XpressAI/xai-gdrive", "library_id": "GDRIVE", "git_ref": "main"}
-{"path": "xai_components/xai_gspread", "url": "https://github.com/XpressAI/xai-gspread", "library_id": "GSPREAD", "git_ref": "main"}
-{"path": "xai_components/xai_vertexai", "url": "https://github.com/XpressAI/xai-google-vertexai", "library_id": "VERTEXAI", "git_ref": "main"}
-{"path": "xai_components/xai_xgboost", "url": "https://github.com/XpressAI/xai-xgboost", "library_id": "XGBOOST", "git_ref": "main"}
-{"path": "xai_components/xai_spark", "url": "https://github.com/XpressAI/xai-spark", "library_id": "SPARK", "git_ref": "main"}
-{"path": "xai_components/xai_sklearn", "url": "https://github.com/XpressAI/xai-sklearn", "library_id": "SKLEARN", "git_ref": "main"}
-{"path": "xai_components/xai_tensorflow_keras", "url": "https://github.com/XpressAI/xai-tensorflow-keras", "library_id": "TENSORFLOW_KERAS", "git_ref": "main"}
-{"path": "xai_components/xai_pytorch", "url": "https://github.com/XpressAI/xai-pytorch", "library_id": "PYTORCH", "git_ref": "main"}
-{"path": "xai_components/xai_agent", "url": "https://github.com/XpressAI/xai-agent", "library_id": "AGENT", "git_ref": "main"}
-{"path": "xai_components/xai_converse", "url": "https://github.com/XpressAI/xai-converse", "library_id": "CONVERSE", "git_ref": "main"}
-{"path": "xai_components/xai_stability_ai", "url": "https://github.com/XpressAI/xai-stability-ai", "library_id": "STABILITY_AI", "git_ref": "main"}
-{"path": "xai_components/xai_google_gemini", "url": "https://github.com/XpressAI/xai-google-gemini", "library_id": "GOOGLE_GEMINI", "git_ref": "main"}
-{"path": "xai_components/xai_mongodb", "url": "https://github.com/XpressAI/xai-mongodb", "library_id": "MONGODB", "git_ref": "main"}
-{"path": "xai_components/xai_gradio", "url": "https://github.com/XpressAI/xai-gradio", "library_id": "GRADIO", "git_ref": "main"}
-{"path": "xai_components/xai_telegram", "url": "https://github.com/XpressAI/xai-telegram", "library_id": "TELEGRAM", "git_ref": "main"}
-{"path": "xai_components/xai_serpapi", "url": "https://github.com/XpressAI/xai-serpapi", "library_id": "SERPAPI", "git_ref": "main"}
-{"path": "xai_components/xai_sendgrid", "url": "https://github.com/XpressAI/xai-sendgrid", "library_id": "SENDGRID", "git_ref": "main"}
-{"path": "xai_components/xai_github", "url": "https://github.com/XpressAI/xai-github", "library_id": "GITHUB", "git_ref": "main"}
-{"path": "xai_components/xai_aws", "url": "https://github.com/XpressAI/xai-aws", "library_id": "AWS", "git_ref": "main"}
-{"path": "xai_components/xai_requests", "url": "https://github.com/XpressAI/xai-requests", "library_id": "REQUESTS", "git_ref": "main"}
-{"path": "xai_components/xai_confluence", "url": "https://github.com/XpressAI/xai-confluence", "library_id": "CONFLUENCE", "git_ref": "main"}
-{"path": "xai_components/xai_gcalendar", "url": "https://github.com/XpressAI/xai-gcalendar", "library_id": "GCALENDAR", "git_ref": "main"}
-{"path": "xai_components/xai_gtasks", "url": "https://github.com/XpressAI/xai-google-tasks", "library_id": "GTASKS", "git_ref": "main"}
-{"path": "xai_components/xai_twilio", "url": "https://github.com/XpressAI/xai-twilio", "library_id": "TWILIO", "git_ref": "main"}
+{"path": "xai_components/xai_pycaret", "url": "https://github.com/XpressAI/xai-pycaret", "library_id": "PYCARET", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_modelstash", "url": "https://github.com/XpressAI/xai-modelstash", "library_id": "MODELSTASH", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_streamlit", "url": "https://github.com/XpressAI/xai-streamlit", "library_id": "STREAMLIT", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_rabbitmq", "url": "https://github.com/XpressAI/xai-rabbitmq", "library_id": "RABBITMQ", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_mqtt", "url": "https://github.com/XpressAI/xai-mqtt", "library_id": "MQTT", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_vecto", "url": "https://github.com/XpressAI/xai-vecto", "library_id": "VECTO", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_openai", "url": "https://github.com/XpressAI/xai-openai", "library_id": "OPENAI", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_gpt_agent_toolkit", "url": "https://github.com/XpressAI/xai-gpt-agent-toolkit", "library_id": "GPT_AGENT_TOOLKIT", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_slack", "url": "https://github.com/XpressAI/xai-slack", "library_id": "SLACK", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_discord", "url": "https://github.com/XpressAI/xai-discord", "library_id": "DISCORD", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_tests", "url": "https://github.com/XpressAI/xai-tests", "library_id": "TESTS", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_anthropic", "url": "https://github.com/XpressAI/xai-anthropic", "library_id": "ANTHROPIC", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_hfagent", "url": "https://github.com/XpressAI/xai-hfagent", "library_id": "HFAGENT", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_flask", "url": "https://github.com/XpressAI/xai-flask", "library_id": "FLASK", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_actors", "url": "https://github.com/XpressAI/xai-actors", "library_id": "ACTORS", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_sqlite", "url": "https://github.com/XpressAI/xai-sqlite", "library_id": "SQLITE", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_gdrive", "url": "https://github.com/XpressAI/xai-gdrive", "library_id": "GDRIVE", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_gspread", "url": "https://github.com/XpressAI/xai-gspread", "library_id": "GSPREAD", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_vertexai", "url": "https://github.com/XpressAI/xai-google-vertexai", "library_id": "VERTEXAI", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_xgboost", "url": "https://github.com/XpressAI/xai-xgboost", "library_id": "XGBOOST", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_spark", "url": "https://github.com/XpressAI/xai-spark", "library_id": "SPARK", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_sklearn", "url": "https://github.com/XpressAI/xai-sklearn", "library_id": "SKLEARN", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_tensorflow_keras", "url": "https://github.com/XpressAI/xai-tensorflow-keras", "library_id": "TENSORFLOW_KERAS", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_pytorch", "url": "https://github.com/XpressAI/xai-pytorch", "library_id": "PYTORCH", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_agent", "url": "https://github.com/XpressAI/xai-agent", "library_id": "AGENT", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_converse", "url": "https://github.com/XpressAI/xai-converse", "library_id": "CONVERSE", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_stability_ai", "url": "https://github.com/XpressAI/xai-stability-ai", "library_id": "STABILITY_AI", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_google_gemini", "url": "https://github.com/XpressAI/xai-google-gemini", "library_id": "GOOGLE_GEMINI", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_mongodb", "url": "https://github.com/XpressAI/xai-mongodb", "library_id": "MONGODB", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_gradio", "url": "https://github.com/XpressAI/xai-gradio", "library_id": "GRADIO", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_telegram", "url": "https://github.com/XpressAI/xai-telegram", "library_id": "TELEGRAM", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_serpapi", "url": "https://github.com/XpressAI/xai-serpapi", "library_id": "SERPAPI", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_sendgrid", "url": "https://github.com/XpressAI/xai-sendgrid", "library_id": "SENDGRID", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_github", "url": "https://github.com/XpressAI/xai-github", "library_id": "GITHUB", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_aws", "url": "https://github.com/XpressAI/xai-aws", "library_id": "AWS", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_requests", "url": "https://github.com/XpressAI/xai-requests", "library_id": "REQUESTS", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_confluence", "url": "https://github.com/XpressAI/xai-confluence", "library_id": "CONFLUENCE", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_gcalendar", "url": "https://github.com/XpressAI/xai-gcalendar", "library_id": "GCALENDAR", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_gtasks", "url": "https://github.com/XpressAI/xai-google-tasks", "library_id": "GTASKS", "git_ref": "main", "origin": "remote"}
+{"path": "xai_components/xai_twilio", "url": "https://github.com/XpressAI/xai-twilio", "library_id": "TWILIO", "git_ref": "main", "origin": "remote"}
+{"path":"xai_components/xai_controlflow","url":"https://github.com/XpressAI/xircuits","library_id":"CONTROLFLOW","git_ref":"master","origin":"core"}
+{"path":"xai_components/xai_events","url":"https://github.com/XpressAI/xircuits","library_id":"EVENTS","git_ref":"master","origin":"core"}
+{"path":"xai_components/xai_template","url":"https://github.com/XpressAI/xircuits","library_id":"TEMPLATE","git_ref":"master","origin":"core"}
+{"path":"xai_components/xai_utils","url":"https://github.com/XpressAI/xircuits","library_id":"UTILS","git_ref":"master","origin":"core"}

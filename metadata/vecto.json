@@ -3,6 +3,7 @@
   "path": "xai_components/xai_vecto",
   "url": "https://github.com/XpressAI/xai-vecto",
   "git_ref": "main",
+  "origin": "remote",
   "version": "0.2.0",
   "description": "Xircuits component library for Vecto, a vector database to leverage vector embeddings.",
   "authors": [

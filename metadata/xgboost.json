@@ -3,6 +3,7 @@
   "path": "xai_components/xai_xgboost",
   "url": "https://github.com/XpressAI/xai-xgboost",
   "git_ref": "main",
+  "origin": "remote",
   "version": "0.1.0",
   "description": "A Xircuits component library for XGBoost!",
   "authors": [
@@ -12,7 +13,7 @@
     }
   ],
   "license": "Apache-2.0",
-  "readme": "readme.md",
+  "readme": "README.md",
   "repository": "https://github.com/XpressAI/xai-xgboost",
   "keywords": [
     "xircuits",

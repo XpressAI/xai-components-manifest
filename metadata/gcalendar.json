@@ -3,6 +3,7 @@
   "path": "xai_components/xai_gcalendar",
   "url": "https://github.com/XpressAI/xai-gcalendar",
   "git_ref": "main",
+  "origin": "remote",
   "version": "0.1.0",
   "description": "Xircuits component library for Google Calendar!",
   "authors": [

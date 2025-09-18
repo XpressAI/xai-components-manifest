@@ -5,7 +5,7 @@
     "path": "xai_components/xai_pycaret",
     "metadata": "metadata/pycaret.json",
     "version": "0.1.0",
-    "description": "Xircuits component library for PyTorch.",
+    "description": "Xircuits component library for PyCaret.",
     "authors": [
       {
         "name": "XpressAI",
@@ -17,7 +17,7 @@
     "repository": "https://github.com/XpressAI/xai-pycaret",
     "keywords": [
       "xircuits",
-      "pytorch",
+      "pycaret",
       "data preprocessing",
       "classification"
     ],
@@ -28,6 +28,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-pycaret",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "examples/AutoMLBasicAnomalyDetection.xircuits"
   },
   {
@@ -45,6 +46,7 @@
     "requirements": [],
     "url": "https://github.com/XpressAI/xai-modelstash",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": null
   },
   {
@@ -62,7 +64,7 @@
     ],
     "license": "Apache-2.0",
     "readme": "README.md",
-    "repository": "https://github.com/XpressAI/xai-mqtt",
+    "repository": "https://github.com/XpressAI/xai-streamlit",
     "keywords": [
       "xircuits",
       "streamlit",
@@ -76,6 +78,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-streamlit",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "examples/streamlit_sample.xircuits"
   },
   {
@@ -105,6 +108,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-rabbitmq",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "examples/rabbitmq_sample.xircuits"
   },
   {
@@ -132,6 +136,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-mqtt",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "examples/mqtt_sample.xircuits"
   },
   {
@@ -164,6 +169,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-vecto",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "examples/SimpleIngestLookup.xircuits"
   },
   {
@@ -191,6 +197,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-openai",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "examples/image_inference.xircuits"
   },
   {
@@ -225,6 +232,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-gpt-agent-toolkit",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "examples/babyagi.xircuits"
   },
   {
@@ -254,6 +262,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-slack",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "examples/msg_trigger.xircuits"
   },
   {
@@ -270,7 +279,7 @@
       }
     ],
     "license": "Apache-2.0",
-    "readme": "readme.md",
+    "readme": "README.md",
     "repository": "https://github.com/XpressAI/xai-discord",
     "keywords": [
       "xircuits",
@@ -278,11 +287,12 @@
       "Bot"
     ],
     "requirements": [
-      "discord-py==2.4.0",
+      "discord.py==2.4.0",
       "aiohttp==3.10.10"
     ],
     "url": "https://github.com/XpressAI/xai-discord",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "examples/DiscordBotBranchExample.xircuits"
   },
   {
@@ -310,6 +320,7 @@
     "requirements": [],
     "url": "https://github.com/XpressAI/xai-tests",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": null
   },
   {
@@ -338,6 +349,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-anthropic",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "examples/anthropic_example.xircuits"
   },
   {
@@ -367,6 +379,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-hfagent",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "examples/HF_sample.xircuits"
   },
   {
@@ -396,6 +409,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-flask",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "examples/DeclarativeExample.xircuits"
   },
   {
@@ -412,7 +426,7 @@
       }
     ],
     "license": "Apache-2.0",
-    "readme": "readme.md",
+    "readme": "README.md",
     "repository": "https://github.com/XpressAI/xai-actors",
     "keywords": [
       "xircuits",
@@ -424,6 +438,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-actors",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": null
   },
   {
@@ -449,6 +464,7 @@
     "requirements": [],
     "url": "https://github.com/XpressAI/xai-sqlite",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "examples/sqlite_sample.xircuits"
   },
   {
@@ -478,6 +494,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-gdrive",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "examples/GDriveSimpleDownload.xircuits"
   },
   {
@@ -506,6 +523,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-gspread",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "examples/SimpleGSpread.xircuits"
   },
   {
@@ -523,6 +541,7 @@
     "requirements": [],
     "url": "https://github.com/XpressAI/xai-google-vertexai",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": null
   },
   {
@@ -539,7 +558,7 @@
       }
     ],
     "license": "Apache-2.0",
-    "readme": "readme.md",
+    "readme": "README.md",
     "repository": "https://github.com/XpressAI/xai-xgboost",
     "keywords": [
       "xircuits",
@@ -552,6 +571,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-xgboost",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "examples/XGBoostClassifier.xircuits"
   },
   {
@@ -568,7 +588,7 @@
       }
     ],
     "license": "Apache-2.0",
-    "readme": "readme.md",
+    "readme": "README.md",
     "repository": "https://github.com/XpressAI/xai-spark",
     "keywords": [
       "xircuits",
@@ -590,6 +610,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-spark",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "examples/SparkSQLPlotBar.xircuits"
   },
   {
@@ -606,7 +627,7 @@
       }
     ],
     "license": "Apache-2.0",
-    "readme": "readme.md",
+    "readme": "README.md",
     "repository": "https://github.com/XpressAI/xai-sklearn",
     "keywords": [
       "xircuits",
@@ -622,6 +643,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-sklearn",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "examples/TrainEvaluate.xircuits"
   },
   {
@@ -639,7 +661,7 @@
     ],
     "license": "Apache-2.0",
     "readme": "README.md",
-    "repository": "https://github.com/XpressAI/xai-pytorch",
+    "repository": "https://github.com/XpressAI/xai-tensorflow-keras",
     "keywords": [
       "xircuits",
       "tensorflow",
@@ -658,6 +680,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-tensorflow-keras",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "examples/TFKerasModelPredict.xircuits"
   },
   {
@@ -688,6 +711,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-pytorch",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "examples/PyTorchTrainModel.xircuits"
   },
   {
@@ -720,6 +744,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-agent",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "examples/agent_example.xircuits"
   },
   {
@@ -750,6 +775,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-converse",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "examples/example.xircuits"
   },
   {
@@ -778,6 +804,7 @@
     "requirements": [],
     "url": "https://github.com/XpressAI/xai-stability-ai",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "examples/stabilityai_example.xircuits"
   },
   {
@@ -808,6 +835,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-google-gemini",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "examples/gemini_example.xircuits"
   },
   {
@@ -837,6 +865,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-mongodb",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "examples/mongodb-example.xircuits"
   },
   {
@@ -866,6 +895,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-gradio",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "examples/DataCollectionInterface.xircuits"
   },
   {
@@ -893,6 +923,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-telegram",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "examples/TelegramEchoBot.xircuits"
   },
   {
@@ -924,6 +955,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-serpapi",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "examples/example.xircuits"
   },
   {
@@ -951,6 +983,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-sendgrid",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": null
   },
   {
@@ -978,6 +1011,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-github",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": null
   },
   {
@@ -995,7 +1029,7 @@
     ],
     "license": "Apache-2.0",
     "readme": "README.md",
-    "repository": "git@github.com:XpressAI/xai-aws.git",
+    "repository": "https://github.com/XpressAI/xai-aws",
     "keywords": [
       "xircuits",
       "aws",
@@ -1008,6 +1042,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-aws",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": null
   },
   {
@@ -1035,6 +1070,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-requests",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "agent_example.xircuits"
   },
   {
@@ -1062,6 +1098,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-confluence",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": null
   },
   {
@@ -1089,6 +1126,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-gcalendar",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": "examples/check_Gcalendar.xircuits"
   },
   {
@@ -1119,6 +1157,7 @@
     ],
     "url": "https://github.com/XpressAI/xai-google-tasks",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": null
   },
   {
@@ -1149,6 +1188,113 @@
     ],
     "url": "https://github.com/XpressAI/xai-twilio",
     "git_ref": "main",
+    "origin": "remote",
     "default_example_path": null
+  },
+  {
+    "library_id": "CONTROLFLOW",
+    "name": "xai-controlflow",
+    "path": "xai_components/xai_controlflow",
+    "metadata": "metadata/controlflow.json",
+    "version": "0.1.0",
+    "description": "Xircuits component library for controlflow purposes.",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xircuits/tree/master/xai_components/xai_controlflow",
+    "keywords": [
+      "xircuits",
+      "controlflow",
+      "if-else",
+      "branch"
+    ],
+    "requirements": [],
+    "url": "https://github.com/XpressAI/xircuits",
+    "git_ref": "master",
+    "origin": "core",
+    "default_example_path": "ControlflowBranch.xircuits"
+  },
+  {
+    "library_id": "EVENTS",
+    "name": "xai-events",
+    "path": "xai_components/xai_events",
+    "metadata": "metadata/events.json",
+    "version": "0.1.0",
+    "description": "Xircuits component library for decoupling features, like functions or events.",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "paul@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xircuits/tree/master/xai_components/xai_events",
+    "keywords": [
+      "xircuits",
+      "events"
+    ],
+    "requirements": [],
+    "url": "https://github.com/XpressAI/xircuits",
+    "git_ref": "master",
+    "origin": "core",
+    "default_example_path": "Events.xircuits"
+  },
+  {
+    "library_id": "TEMPLATE",
+    "name": "xai-template",
+    "path": "xai_components/xai_template",
+    "metadata": "metadata/template.json",
+    "version": "0.1.0",
+    "description": "Xircuits component library template for Xircuits.",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "README.md",
+    "repository": "https://github.com/XpressAI/xircuits/tree/master/xai_components/xai_template",
+    "keywords": [
+      "xircuits",
+      "example components"
+    ],
+    "requirements": [],
+    "url": "https://github.com/XpressAI/xircuits",
+    "git_ref": "master",
+    "origin": "core",
+    "default_example_path": "HelloTutorial.xircuits"
+  },
+  {
+    "library_id": "UTILS",
+    "name": "xai-utils",
+    "path": "xai_components/xai_utils",
+    "metadata": "metadata/utils.json",
+    "version": "0.1.0",
+    "description": "A collection of utility components for Xircuits.",
+    "authors": [
+      {
+        "name": "XpressAI",
+        "email": "eduardo@xpress.ai"
+      }
+    ],
+    "license": "Apache-2.0",
+    "readme": "readme.md",
+    "repository": "https://github.com/XpressAI/xircuits/tree/master/xai_components/xai_utils",
+    "keywords": [
+      "xircuits",
+      "utility"
+    ],
+    "requirements": [],
+    "url": "https://github.com/XpressAI/xircuits",
+    "git_ref": "master",
+    "origin": "core",
+    "default_example_path": "UtilsZipDirectory.xircuits"
   }
 ]

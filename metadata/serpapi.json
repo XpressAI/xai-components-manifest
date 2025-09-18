@@ -3,6 +3,7 @@
   "path": "xai_components/xai_serpapi",
   "url": "https://github.com/XpressAI/xai-serpapi",
   "git_ref": "main",
+  "origin": "remote",
   "version": "0.1.0",
   "description": "SerpAPI Components for Searching the Web",
   "authors": [

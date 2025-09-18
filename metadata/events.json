@@ -1,0 +1,24 @@
+{
+  "library_id": "EVENTS",
+  "path": "xai_components/xai_events",
+  "url": "https://github.com/XpressAI/xircuits",
+  "git_ref": "master",
+  "origin": "core",
+  "version": "0.1.0",
+  "description": "Xircuits component library for decoupling features, like functions or events.",
+  "authors": [
+    {
+      "name": "XpressAI",
+      "email": "paul@xpress.ai"
+    }
+  ],
+  "license": "Apache-2.0",
+  "readme": "README.md",
+  "repository": "https://github.com/XpressAI/xircuits/tree/master/xai_components/xai_events",
+  "keywords": [
+    "xircuits",
+    "events"
+  ],
+  "requirements": [],
+  "default_example_path": "Events.xircuits"
+}

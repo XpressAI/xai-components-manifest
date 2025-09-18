@@ -3,6 +3,7 @@
   "path": "xai_components/xai_requests",
   "url": "https://github.com/XpressAI/xai-requests",
   "git_ref": "main",
+  "origin": "remote",
   "version": "0.1.0",
   "description": "Xircuits component library for sending requests",
   "authors": [

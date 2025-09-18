@@ -1,0 +1,26 @@
+{
+  "library_id": "CONTROLFLOW",
+  "path": "xai_components/xai_controlflow",
+  "url": "https://github.com/XpressAI/xircuits",
+  "git_ref": "master",
+  "origin": "core",
+  "version": "0.1.0",
+  "description": "Xircuits component library for controlflow purposes.",
+  "authors": [
+    {
+      "name": "XpressAI",
+      "email": "eduardo@xpress.ai"
+    }
+  ],
+  "license": "Apache-2.0",
+  "readme": "README.md",
+  "repository": "https://github.com/XpressAI/xircuits/tree/master/xai_components/xai_controlflow",
+  "keywords": [
+    "xircuits",
+    "controlflow",
+    "if-else",
+    "branch"
+  ],
+  "requirements": [],
+  "default_example_path": "ControlflowBranch.xircuits"
+}

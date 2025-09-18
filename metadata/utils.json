@@ -1,0 +1,24 @@
+{
+  "library_id": "UTILS",
+  "path": "xai_components/xai_utils",
+  "url": "https://github.com/XpressAI/xircuits",
+  "git_ref": "master",
+  "origin": "core",
+  "version": "0.1.0",
+  "description": "A collection of utility components for Xircuits.",
+  "authors": [
+    {
+      "name": "XpressAI",
+      "email": "eduardo@xpress.ai"
+    }
+  ],
+  "license": "Apache-2.0",
+  "readme": "readme.md",
+  "repository": "https://github.com/XpressAI/xircuits/tree/master/xai_components/xai_utils",
+  "keywords": [
+    "xircuits",
+    "utility"
+  ],
+  "requirements": [],
+  "default_example_path": "UtilsZipDirectory.xircuits"
+}

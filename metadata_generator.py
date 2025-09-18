@@ -2,8 +2,20 @@
 import json
 import toml
 import subprocess
-import shutil
 from pathlib import Path
+
+CORE_ORIGIN = "core"
+
+def _git_clone_once(repo_url: str, target: Path, ref: str):
+    if target.exists() and (target / ".git").exists():
+        print(f"✓ Using cached clone: {target}")
+        return
+    target.parent.mkdir(parents=True, exist_ok=True)
+    cmd = ["git", "clone", "--depth", "1"]
+    if ref:
+        cmd += ["--branch", ref]
+    cmd += [repo_url, str(target)]
+    subprocess.run(cmd, check=True)
 
 def build_metadata(manifest_path='xai_components_manifest.jsonl',
                    output_index='index.json',
@@ -20,6 +32,8 @@ def build_metadata(manifest_path='xai_components_manifest.jsonl',
     meta_dir = Path(metadata_dir)
     meta_dir.mkdir(exist_ok=True)
     clone_dir = Path(clone_root)
+    clone_dir.mkdir(exist_ok=True)
+    core_clone_cache = {}  
 
     index = []
     with open(manifest_path, 'r', encoding='utf-8') as mf:
@@ -28,24 +42,53 @@ def build_metadata(manifest_path='xai_components_manifest.jsonl',
             lib_id = entry['library_id']
             repo_url = entry['url']
             ref      = entry.get('git_ref', 'main')
-            target   = clone_dir / lib_id.lower()
+            origin   = entry.get('origin') 
 
-            # 2) clone & checkout
-            subprocess.run(['git', 'clone', repo_url, str(target)], check=True)
+            if origin == CORE_ORIGIN:
+                key = (repo_url, ref)
+                if key not in core_clone_cache:
+                    repo_name = Path(repo_url.rstrip('/')).stem  
+                    shared = clone_dir / f"{repo_name}-{ref}".lower()
+                    _git_clone_once(repo_url, shared, ref)
+                    core_clone_cache[key] = shared
+                target = core_clone_cache[key]
+            else:
+                target = clone_dir / lib_id.lower()
+                _git_clone_once(repo_url, target, ref)
 
-            # 3) load pyproject.toml if exists
             proj_data = {}
             xircuits_cfg = {}
-            pyproj = target / 'pyproject.toml'
-            if pyproj.exists():
+
+            if origin == CORE_ORIGIN:
+                lib_path = entry.get('path')
+                if not lib_path:
+                    raise RuntimeError(f"[{lib_id}] core entry is missing 'path' in manifest.")
+                lib_root = target / lib_path
+                if not lib_root.exists():
+                    raise RuntimeError(f"[{lib_id}] core lib path not found: {lib_root}")
+
+                pyproj = lib_root / 'pyproject.toml'
+                if not pyproj.exists():
+                    raise RuntimeError(f"[{lib_id}] core pyproject.toml is required at: {pyproj}")
+
                 cfg = toml.load(pyproj)
                 proj_data    = cfg.get('project', {})
                 xircuits_cfg = (cfg.get('tool') or {}).get('xircuits', {})
-            else:
-                print(f"⚠️  {lib_id}: pyproject.toml not found, using nulls where missing")
 
-            # default_example_path lives in [tool.xircuits]
-            default_example_path = entry.get("default_example_path", xircuits_cfg.get("default_example_path"))
+                default_example_path = entry.get("default_example_path") or xircuits_cfg.get("default_example_path")
+                if not default_example_path:
+                    raise RuntimeError(f"[{lib_id}] core default_example_path is required (manifest or [tool.xircuits]).")
+
+            else:
+                pyproj = target / 'pyproject.toml'
+                if pyproj.exists():
+                    cfg = toml.load(pyproj)
+                    proj_data    = (cfg.get('project') or {})
+                    xircuits_cfg = ((cfg.get('tool') or {}).get('xircuits') or {})
+                else:
+                    print(f"⚠️  {lib_id}: pyproject.toml not found at repo root; using nulls.")
+
+                default_example_path = entry.get("default_example_path", xircuits_cfg.get("default_example_path"))
 
             metadata = {
                 # manifest fields
@@ -53,6 +96,7 @@ def build_metadata(manifest_path='xai_components_manifest.jsonl',
                 'path':       entry['path'],
                 'url':        repo_url,
                 'git_ref':    ref,
+                'origin':     origin,
                 # project fields
                 'version':      proj_data.get("version"),
                 'description':  proj_data.get("description"),
@@ -85,6 +129,7 @@ def build_metadata(manifest_path='xai_components_manifest.jsonl',
                 "requirements":         entry.get("requirements", metadata.get("requirements")),
                 "url":                  entry.get("url", metadata.get("url")),
                 "git_ref":              entry.get("git_ref", metadata.get("git_ref")),
+                "origin":               origin,
                 "default_example_path": default_example_path,
             })
 

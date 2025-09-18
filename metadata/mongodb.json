@@ -3,6 +3,7 @@
   "path": "xai_components/xai_mongodb",
   "url": "https://github.com/XpressAI/xai-mongodb",
   "git_ref": "main",
+  "origin": "remote",
   "version": "0.1.0",
   "description": "A collection of Xircuits components for interfacing with MongoDB.",
   "authors": [
